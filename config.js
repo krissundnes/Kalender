@@ -8,8 +8,8 @@ window.KALENDER_CONFIG = {
   // Disse er laget for å ligge i nettleseren; det er tilgangsreglene i
   // databasen som beskytter dataene. Bruk ALDRI "service_role"/"secret"-nøkkelen her.
   // La feltene stå tomme for å prøve appen i demomodus.
-  SUPABASE_URL: "",
-  SUPABASE_KEY: "",
+  SUPABASE_URL: "https://vjzzopfgqghrzxtbaeht.supabase.co",
+  SUPABASE_KEY: "sb_publishable_JAaaBRVfxIB8H3Oix37viQ_e36sgIpz",
 
   APP_NAME: "Familiekalender",
 
