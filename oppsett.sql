@@ -100,8 +100,8 @@ end $$;
 --    BYTT UT e-postadressene under med de riktige før du kjører.
 --    Vegard har ikke innlogging; han finnes bare som person i kalenderen.
 insert into public.allowed_users (email, member_id, can_edit) values
-  ('kristoffer@eksempel.no', 'kristoffer', true),
-  ('hilde@eksempel.no',      'hilde',      true),
-  ('ane@eksempel.no',        'ane',        true)
+  ('kristoffer.sundnes@gmail.com', 'kristoffer', true),
+  ('hilde.risstad@outlook.com',      'hilde',      true),
+  ('ane.sundnes@icloud.com',        'ane',        true)
 on conflict (email) do update
   set member_id = excluded.member_id, can_edit = excluded.can_edit;
