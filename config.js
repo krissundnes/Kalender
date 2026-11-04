@@ -16,13 +16,13 @@ window.KALENDER_CONFIG = {
   // Personene i kalenderen. id må stemme med member_id i databasen.
   MEMBERS: [
     { id: "kristoffer", name: "Kristoffer", short: "K", color: "#2563eb" },
-    { id: "hilde",      name: "Hilde",      short: "H", color: "#ca8a04" },
+    { id: "hilde",      name: "Hilde",      short: "H", color: "##16a34a" },
     { id: "ane",        name: "Ane",        short: "A", color: "#c026d3" },
     { id: "vegard",     name: "Vegard",     short: "V", color: "#ea580c" },
   ],
 
   // Farge for avtaler som gjelder hele familien
-  FAMILY_COLOR: "#0f766e",
+  FAMILY_COLOR: "#475569",
 
   // Hvor uke- og dagsvisningen starter når den åpnes (klokketime)
   SCROLL_TO_HOUR: 7,
