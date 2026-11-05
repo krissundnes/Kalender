@@ -16,7 +16,7 @@ window.KALENDER_CONFIG = {
   // Personene i kalenderen. id må stemme med member_id i databasen.
   MEMBERS: [
     { id: "kristoffer", name: "Kristoffer", short: "K", color: "#2563eb" },
-    { id: "hilde",      name: "Hilde",      short: "H", color: "##16a34a" },
+    { id: "hilde",      name: "Hilde",      short: "H", color: "#16a34a" },
     { id: "ane",        name: "Ane",        short: "A", color: "#c026d3" },
     { id: "vegard",     name: "Vegard",     short: "V", color: "#ea580c" },
   ],
