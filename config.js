@@ -19,6 +19,7 @@ window.KALENDER_CONFIG = {
     { id: "hilde",      name: "Hilde",      short: "H", color: "#16a34a" },
     { id: "ane",        name: "Ane",        short: "A", color: "#c026d3" },
     { id: "vegard",     name: "Vegard",     short: "V", color: "#ea580c" },
+    { id: "eline",      name: "Eline",      short: "E", color: "#0891b2" },
   ],
 
   // Farge for avtaler som gjelder hele familien
